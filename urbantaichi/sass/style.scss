@@ -1,0 +1,42 @@
+/*!
+ Theme Name:   Urban Tai Chi
+ Theme URI:    http://gcostudios.com/
+ Description:  Custom theme for Urban Tai Chi.
+ Author:       Jose Guerra
+ Author URI:   https://joseguerra.uk
+ Template:     mts_steadyincome
+ Version:      1.0.0
+*/
+
+/* Hero Section */
+.b_first {
+	background-color: #6a706e;
+	background-image: url('images/urbantaichi-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	.blog_first {
+		margin-top: 0;
+	}
+}
+.b_right {
+	min-height: 500px;
+	
+	@media only screen and (max-width: 600px) {
+		min-height: unset;
+	}
+}
+
+/* Homepage Blog Section */
+#blogs .home_article .home_article-cat {
+	
+	@media only screen and (max-width: 600px) {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	h3 {
+		margin-bottom: 1rem;
+	}
+}
